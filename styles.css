@@ -1,0 +1,126 @@
+.navbar .container-fluid .collapse ul li a:hover {
+  color: red;
+}
+.animate-character {
+  text-transform: uppercase;
+  text-align: center;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 90px;
+  font-family: "Noto Sans Mono", monospace;
+  font-weight: 900;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+h2 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 24px;
+}
+h3 {
+  font-size: 35px;
+  color: rgb(3, 33, 97);
+  text-align: center;
+}
+h5 {
+  font-family: "Noto Sans Mono", monospace;
+  font-size: 16px;
+}
+h6 {
+  font-family: "Noto Sans Mono", monospace;
+  font-size: 25px;
+  font-weight: 700;
+}
+p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 17px;
+}
+.legal p {
+  font-size: 14px;
+}
+li {
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  font-weight: 500;
+}
+div.gallery {
+  border: 1px solid black;
+  border-radius: 5px;
+  background: whitesmoke;
+}
+button {
+  padding: 20px;
+  border: none;
+  animation: animateButton 10s linear infinite;
+  font-family: "Noto Sans Mono", monospace;
+}
+@keyframes animateButton {
+  0% {
+    background: rgb(59, 10, 59);
+  }
+  50% {
+    background: red;
+  }
+  100% {
+    background: rgb(49, 17, 231);
+  }
+}
+section a {
+  border: 1px solid grey;
+  border-radius: 15px;
+  text-decoration: none;
+  font-size: 22px;
+  padding: 5px 8px;
+  color: grey;
+}
+div.icons {
+  color: rgb(71, 7, 131);
+  font-size: 25px;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding-bottom: 30%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 45px;
+  }
+  .video-container {
+    padding-bottom: 42%;
+  }
+
+  div.icons {
+    font-size: 15px;
+  }
+}

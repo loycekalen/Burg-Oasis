@@ -3,13 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Palanquin+Dark:wght@400;500;600;700&family=Patrick+Hand&display=swap"
-      rel="stylesheet"
+    <meta
+      name="description"
+      content="Experience the essence of urban gardens - In the heart of bustling cities, amidst towering skyscrapers and
+              busy streets, lies a sanctuary of tranquility and beauty – the
+              urban garden. These green spaces are more than just patches of
+              vegetation; they are vibrant ecosystems teeming with life and
+              vitality. Here, amidst the concrete jungle, nature thrives,
+              offering a respite from the chaos of urban life. "
     />
-    <title>Discover the allure of city greenery - Burg Oasis</title>
+    <title>
+      Discover the Allure and Tranquility of City Greenery - Burg Oasis
+    </title>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,16 +23,71 @@
       crossorigin="anonymous"
     />
     <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
       src="https://kit.fontawesome.com/75f32e9ed7.js"
       crossorigin="anonymous"
     ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/"
+          ><img
+            src="/images/Black Gold Butterfly Beauty Logo.png"
+            alt="Burg Oasis Logo "
+            width="120"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link ms-5" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-5" href="/">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-5" href="/">Tickets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-5" href="/#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <h1 class="animate-character">Hi! Welcome to Burg Oasis</h1>
+    <h2 class="text-center">
+      <em>Discover the Allure and Tranquility of City Greenery</em>
+    </h2>
     <div class="container">
-      <h1>👋 Hi! Welcome to Burg Oasis</h1>
-      <h3><em>Discover the allure of city greenery</em></h3>
-      <div class="row">
-        <div class="col-sm-6">
+      <div class="row mt-5">
+        <div class="col-md-6 col-sm-12">
           <h3>Experience the Essence of Urban Gardens</h3>
           <p>
             In the heart of bustling cities, amidst towering skyscrapers and
@@ -36,32 +97,32 @@
             amidst the concrete jungle, nature thrives, offering a respite from
             the chaos of urban life.
           </p>
-        </div>
-        <div class="col-sm-6">
           <img
-            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/829/original/hk_2.jpg?1715115299"
-            alt="Botanical and Zoology Gardens Hong Kong"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/840/original/tulips.jpg?1715124046"
+            alt="Netherlands"
             class="img-fluid"
           />
+        </div>
+        <div class="col-md-6 col-sm-12 mt-3">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/829/original/hk_2.jpg?1715115299"
+            alt="Hong Kong Zoological and Botanical Gardens"
+            class="img-fluid mb-4"
+          />
+          <div class="aspects bg-info bg-opacity-25 p-3">
+            <h3>Our Favorite Aspects</h3>
+            <ol>
+              <li>Tranquil Retreats</li>
+              <li>Seasonal Delights</li>
+              <li>Hidden Gems</li>
+              <li>Sustainable Sanctuaries</li>
+            </ol>
+          </div>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-sm-3">
-          <img
-            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/826/original/miraclegarden.jpg?1715114162"
-            alt="Miracle Garden Dubai"
-            class="img-fluid"
-          />
-        </div>
-        <div class="col-sm-3">
-          <img
-            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/831/original/singapore.jpg?1715115918"
-            alt="Gardens by the Bay Singapore"
-            class="img-fluid"
-          />
-        </div>
-        <div class="col-sm-4">
+      <div class="gallery row mt-5">
+        <div class="statements bg-dark bg-opacity-25 p-1 mt-3">
           <h3>Why Urban Gardens Matter</h3>
           <ul>
             <li>
@@ -70,73 +131,154 @@
             </li>
             <li>Biodiversity Hotspots</li>
             <li>Mental Wellbeing - a good place for rejuvenation</li>
-            <li>Community Spaces</li>
+            <li>Encourage Community Engagement and Social Interaction</li>
             <li>Educational Opportunities and Tourist Attraction</li>
           </ul>
         </div>
+        <div class="col-md-3">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/831/original/singapore.jpg?1715115918"
+            alt="Gardens by the bay Singapore"
+            class="img-fluid mt-3"
+            id="garden-gallery"
+          />
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/858/original/vancouver.jpg?1715165682"
+            alt="Butchart Gardens, Vancouver"
+            class="img-fluid mt-2"
+          />
+        </div>
+        <div class="col-md-3">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/862/original/sng_airport.jpg?1715165861"
+            alt="Singapore Airport"
+            class="img-fluid mt-3"
+          />
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/870/original/nikka_yuko.jpg?1715167052"
+            alt="Nikka Yuko Japanese Garden, Lethbridge"
+            class="img-fluid mt-2"
+          />
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/842/original/tulips_2.jpg?1715124610"
+            alt="Netherlands"
+            class="img-fluid mt-2 mb-2"
+          />
+        </div>
+
+        <div class="col-md-3">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/826/original/miraclegarden.jpg?1715114162"
+            alt="Dubai Miracle Garden"
+            class="img-fluid mt-3"
+          />
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/830/original/hk.jpg?1715115310"
+            alt="Hong Kong"
+            class="img-fluid mt-2"
+          />
+        </div>
+        <div class="col-md-3">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/859/original/waterlily.jpg?1715165692"
+            alt="Water Lily Gardens London"
+            class="img-fluid mt-3"
+          />
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/125/827/original/gardensng.jpg?1715114172"
+            alt="Singapore"
+            class="img-fluid mt-2"
+          />
+        </div>
       </div>
 
-      <div class="row">
-        <div class="col">
-          <h3>Our Favorite Aspects of Urban Gardens</h3>
-          <ol>
-            <li>Tranquil Retreats</li>
-            <li>Seasonal Delights</li>
-            <li>Hidden Gems</li>
-            <li>Sustainable Sanctuaries</li>
-          </ol>
-        </div>
-        <div class="col">
-          <iframe
-            width="500"
-            height="365"
-            src="https://www.youtube.com/embed/vaZPNWZU3jM"
-            title="Miracle Garden Dubai 2022 || The world’s largest natural flower garden"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col">
-          <iframe
-            width="500"
-            height="365"
-            src="https://www.youtube.com/embed/wHiFdhmooqU"
-            title="Butchart Gardens // Most  Beautiful Garden on Vancouver Island"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div class="col">
-          <h3>Join us in Embracing the Green</h3>
-          <p>
-            At Burg Oasis, we believe in the transformative power of nature.
-            Join us in celebrating the charm of city greenery and together,
-            let's create a greener, more vibrant future for our urban
-            landscapes.
-          </p>
-          <button>Explore Our Gardens</button>
-        </div>
-      </div>
-      <hr />
-      <h3>Follow us on Social Media</h3>
       <div>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-x-twitter"></i>
-        <i class="fa-brands fa-github"></i>
+        <div class="row mt-5">
+          <div class="col video-container me-4">
+            <iframe
+              width="520"
+              height="365"
+              src="https://www.youtube.com/embed/vaZPNWZU3jM"
+              title="Miracle Garden Dubai 2022 || The world’s largest natural flower garden"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="col video-container">
+            <iframe
+              width="520"
+              height="365"
+              src="https://www.youtube.com/embed/wHiFdhmooqU"
+              title="Butchart Gardens // Most  Beautiful Garden on Vancouver Island"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
       </div>
-      <hr />
-      <footer>
-        © 2024 Burg Oasis. All rights reserved.
-        <br />
-        Privacy Policy | Terms of Service | Contact Us
+
+      <div class="text-center bg-success bg-opacity-50 mt-2 p-3">
+        <h3>Join us in Embracing the Green!</h3>
+        <p>
+          At Burg Oasis, we believe in the transformative power of nature. Join
+          us in celebrating the charm of city greenery and together, let's
+          create a greener, more vibrant future for our urban landscapes.
+        </p>
+        <button>
+          <a
+            href="/#garden-gallery"
+            class="text-decoration-none fs-4 text-white"
+            >Explore Our Gardens</a
+          >
+        </button>
+      </div>
+
+      <section class="text-center mt-4">
+        <h6 class="mb-5">"Colors are Smiles of Nature"</h6>
+        <a href="/">↑ back to top</a>
+      </section>
+
+      <footer class="mt-5">
+        <div class="row d">
+          <div class="col text-center legal">
+            <h5>LEGAL</h5>
+            <p>
+              Privacy Policy<br />
+              Terms of Service<br />
+              Contact Us
+            </p>
+          </div>
+          <div class="col text-center">
+            <h5>NEWSLETTER</h5>
+            <p><a href="#" id="sign-up" class="fs-6">Sign Up!</a></p>
+          </div>
+          <div class="col text-center">
+            <h5 id="contact">SOCIAL MEDIA</h5>
+            <div class="icons">
+              <a href="https://facebook.com/burg_oasis" class="me-4"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+
+              <a href="https://tiktok.com/burg_oasis"
+                ><i class="fa-brands fa-tiktok"></i
+              ></a>
+
+              <a href="https://github.com/loycekalen" class="ms-4">
+                <i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
       </footer>
+
+      <hr />
+      <p class="text-center">© 2024 Burg Oasis. All rights reserved.</p>
     </div>
+
+    <script src="/index.js"></script>
   </body>
 </html>
