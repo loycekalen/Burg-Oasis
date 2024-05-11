@@ -1,3 +1,7 @@
+.navbar .container-fluid img {
+  margin-left: 60px;
+}
+
 .navbar .container-fluid .collapse ul li a:hover {
   color: red;
 }
@@ -110,6 +114,9 @@ div.icons {
   left: 0;
   width: 100%;
   height: 80%;
+}
+#sign-up:hover {
+  color: peru;
 }
 
 @media (max-width: 992px) {
