@@ -1,3 +1,7 @@
+body {
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
 .navbar .container-fluid img {
   margin-left: 60px;
 }
@@ -44,6 +48,8 @@ h3 {
   font-size: 35px;
   color: rgb(3, 33, 97);
   text-align: center;
+
+  font-weight: 700;
 }
 h5 {
   font-family: "Noto Sans Mono", monospace;
@@ -121,7 +127,7 @@ div.icons {
 
 @media (max-width: 700px) {
   .animate-character {
-    font-size: 50px;
+    font-size: 60px;
   }
   .video-container {
     padding-bottom: 42%;
