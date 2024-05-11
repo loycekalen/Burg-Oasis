@@ -24,7 +24,7 @@
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-  font-size: 90px;
+  font-size: 100px;
   font-family: "Noto Sans Mono", monospace;
   font-weight: 900;
 }
@@ -119,9 +119,9 @@ div.icons {
   color: peru;
 }
 
-@media (max-width: 992px) {
-  h1 {
-    font-size: 45px;
+@media (max-width: 700px) {
+  .animate-character {
+    font-size: 50px;
   }
   .video-container {
     padding-bottom: 42%;
